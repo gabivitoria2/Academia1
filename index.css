@@ -1,49 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Noto+Sans+Old+Persian&display=swap');
+
 * {
-    /*normalização*/
+    /* normalização */
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(0, 173, 210);
+body {
+    background-color: #BA2CC7;
     height: 100vh;
 }
 
-nav li {
-  font-family: "Jersey 15", sans-serif;
-  font-weight: 400px;
-  font-style: normal;
-  text-align: center;
-}
-
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 5%;
     width: 100%;
-    height: 25%;
-    background-color: rgb(212, 38, 133);
+    height: 15%;
+    background-color: rgba(255, 0, 179, 0.2);
     border: 10px solid;
 }
 
-header nav ul li {
+nav li {
+    font-family: "Coral Pixels", serif;
+    font-weight: 200px;
+    font-style: normal;
+    text-align: center;
+}
 
+header nav ul li {
+    
     display: inline-block;
 
     border: 10px solid;
     border-radius: 50px;
-
+   
     width: 241px;
-    height: 80px;
+    height: 77px;
 
     margin-right: 145px;
-    background-color: rgb(226, 69, 124);
+    background-color: #FF5CCE;
+
 }
 
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
+
 }
 
 header img {
@@ -56,7 +60,6 @@ header img {
     border-radius: 25px;
 
 }
-
 main {
     display: flex;
     align-items: center;
@@ -67,51 +70,55 @@ main {
     margin-right: auto;
 
     width: 95%;
-    height: 80%px;
-    background-color: rgb(228, 50, 157);
+    height: 80%;
+    background-color: #FF5CCE;
     border: 10px solid;
     border-radius: 50px;
 
+
 }
 
-.academia_1,
-.academia_3 {
+.brino_1,
+.brino_3 {
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: space-around;
 
-    width: 45%;
+    width: 15%;
     height: 100%;
 
-    background-color: rgb(226, 69, 124);
+    background-color: #BA2CC7;
 
     border: 10px solid;
     border-radius: 50px;
+
 }
 
-.academia_1 img,
-.academia_3 img {
-    width: 90%;
-    height: 100%;
+.brino_1 img,
+.brino_3 img {
+    width: 50%;
+    height: 20%;
     object-fit: cover;
 }
 
-.academia_2 {
+
+.brino_2 {
+
     width: 950px;
     height: 502px;
 
-    background-color: rgb(78, 223, 254);
+    background-color: #BA2CC7;
     border: 10px solid;
     border-radius: 268px;
 
 
 }
 
-.academia_2 img {
+.brino_2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 268px;
-   
+
 }
