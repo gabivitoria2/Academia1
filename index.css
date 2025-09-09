@@ -92,14 +92,14 @@ main {
 
 .academia_1 img,
 .academia_3 img {
-    width: 138px;
-    height: 137px;
+    width: 135px;
+    height: 135px;
     object-fit: cover;
 }
 
 .academia_2 {
-    width: 940px;
-    height: 402px;
+    width: 950px;
+    height: 502px;
 
     background-color: rgb(78, 223, 254);
     border: 10px solid;
