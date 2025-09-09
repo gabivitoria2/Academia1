@@ -93,7 +93,7 @@ main {
 .academia_1 img,
 .academia_3 img {
     width: 45%;
-    height: 45%;
+    height: 100%;
     object-fit: cover;
 }
 
